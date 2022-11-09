@@ -1,0 +1,2 @@
+create database project;
+create table candidates (admno int primary key, candidate_name varchar(40), course varchar(30), duration varchar(30), faculty varchar(30));
