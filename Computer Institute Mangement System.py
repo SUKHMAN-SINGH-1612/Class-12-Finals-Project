@@ -2,7 +2,7 @@ import mysql.connector as sql
 
 conn = sql.connect(host='localhost',
                    user='root',
-                   passwd='Home@2424052',
+                   passwd='',                    #your password
                    database='project')
 # if conn.is_connected():
 # print("Successfully Connected")
